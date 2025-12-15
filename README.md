@@ -50,7 +50,7 @@ sudo apt install build-essential cmake qt6-base-dev qt6-declarative-dev qml6-mod
 ```
 Installation
 ```
-git clone [https://github.com/kadirr1343/AutoDrive-Core.git](https://github.com/kadirr1343/AutoDrive-Core.git)
+git clone https://github.com/kadirr1343/AutoDrive-Core.git
 cd AutoDrive-Core
 ```
 Build Process
