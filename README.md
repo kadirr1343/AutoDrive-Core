@@ -47,27 +47,32 @@ Ensure you have C++ compilers, CMake, and Qt6 libraries installed:
 ```bash
 sudo apt update
 sudo apt install build-essential cmake qt6-base-dev qt6-declarative-dev qml6-module-qtquick-layouts
-
+```
 Installation
+```
 git clone [https://github.com/kadirr1343/AutoDrive-Core.git](https://github.com/kadirr1343/AutoDrive-Core.git)
 cd AutoDrive-Core
-
+```
 Build Process
 The project uses a Monorepo structure. You can build both nodes with a single command:
+```
 mkdir build && cd build
 cmake ..
 make
-
+```
 Running the System
 You need two terminal windows to observe the full interaction:
 
 Terminal 1: Start the Dashboard
+```
 cd hmi_dashboard
 ./hmi_node
-
+```
 Terminal 2: Start the ECU (Engine)
+```
 # From the 'build' directory
 ./ecu_firmware/ecu_node
+```
 
 📜 License
 This project is open-source and available under the MIT License.
